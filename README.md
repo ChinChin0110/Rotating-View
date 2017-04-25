@@ -1,23 +1,23 @@
 ## Synopsis
 
-A simple and easy use rotating view.
+A simple and easy use rotatable view.
 
 ## Code Example
 
 ```Swift
-    var rotationView = RotationView()
+var rotationView = RotationView()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+override func viewDidLoad() {
+   super.viewDidLoad()
         
-        rotationView.frame = CGRect(x: 30, y: 30, width: 100, height: 100)
-        rotationView.center = view.center
-        rotationView.secondPerRevolution = 0.6
-        rotationView.clockwise = true
+   rotationView.frame = CGRect(x: 30, y: 30, width: 100, height: 100)
+   rotationView.center = view.center
+   rotationView.secondPerRevolution = 0.6
+   rotationView.clockwise = true
         
-        view.addSubview(rotationView)
+   view.addSubview(rotationView)
         
-    }
+}
 ```
 
 ## Motivation
